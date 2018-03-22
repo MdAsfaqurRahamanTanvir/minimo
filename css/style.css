@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #b1b1b1;
+}
+
+.header{
+    min-height: 150px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.wraper{
+    width: 1070px;
+    margin: 0 auto;
+   
+}
+
+.logo{
+ float: left;
+   padding-top: 65px;
+   padding-bottom: 75px;
+}
+
+.logo h1{
+    font-family: 'Inconsolata', monospace;
+    
+    color: black;
+    letter-spacing: 10px;
+    font-weight: regular;
+}
+
+.nav{
+    float: right;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+
+.nav ul{
+   list-style: none;
+    
+}
+.nav ul li{
+    float: left;
+        padding-left: 94px;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+
+.content{
+    min-height: 550px;
+    overflow: hidden;
+}
+
+.content_img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.wraper2{
+    padding-left: 80px;
+    padding-right: 100px;
+}
+.title{
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   font-family: 'Ubuntu', sans-serif;
+    font-weight: light;
+    font-size: 10px;
+    color: #878787;
+}
+.heading{
+    padding-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: regular;
+    font-size: 20px;
+    color: #626262;
+}
+.text{
+    padding-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: regular;
+    letter-spacing: 1px;
+}
+
+.aside{
+    min-height: 1100px;
+    overflow: hidden;
+}
+.aside_content{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+
+.aside_content:nth-child(even){
+    float: right;
+    padding-right: 50px;
+}
+.img{
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+.sign{
+   height: 250px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.sign_up h1{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #333333;
+}
+.submit{
+    border-bottom: 1px solid black;
+    width: 370px;
+    
+          margin-left: 475px;
+position: absolute;
+}
+.submit p{
+    
+}
+.submit img{
+   position: relative;
+            top: -16px;
+    float: right;
+}
+
+.life_style{
+    min-height: 600px;
+    overflow: hidden;
+}
+.lcontent{
+  min-height: 646px;
+}
+.buttonb{
+    margin-top: 20px;
+    margin-bottom: 30px;
+        margin-left: -52px;
+    text-align: center;
+}
+.buttonb input[type="button"]{ 
+height: 60px;
+width: 150px;
+font-size: 20px;
+}
+
+.footer{
+    min-height: 100px;
+    color: #3d3d3d;
+    background-color: #f0f0f0;
+  
+}
+
+.footer_content{  padding-top: 50px;
+}
+
+.left_footer{
+    float: left;
+     color: #3d3d3d;
+}
+.left_footer ul{
+    list-style: none;
+    color: #3d3d3d;
+}
+.left_footer ul li{
+    color: #3d3d3d;
+    float: left;
+        padding-right: 35px;
+}
+.right_footer{
+    float: right;
+    color: black;
+}
+.right_footer ul{
+    list-style: none;
+}
+.right_footer ul li{
+    /*color: #3d3d3d;*/
+    color: black;
+    float: left;
+        padding-left: 25px;
+}
